@@ -1,0 +1,130 @@
+{
+  "blogs": [
+    {
+      "title": "'My second website",
+      "body": "'kaka does not like fanta'",
+      "author": "'peter'",
+      "id": 2
+    },
+    {
+      "title": "'My third website'",
+      "body": "'messi does not like sprite'",
+      "author": "'tunde'",
+      "id": 3
+    },
+    {
+      "title": "'My second website'",
+      "body": "'kaka does not like fanta'",
+      "author": "'peter'",
+      "id": 4
+    },
+    {
+      "title": "ddd",
+      "body": "sdd",
+      "author": "mario",
+      "id": 5
+    },
+    {
+      "title": "kjdfkjdfkj",
+      "body": "dkfjdfkjdkfjf",
+      "author": "yoshi",
+      "id": 6
+    },
+    {
+      "title": "i love my new car",
+      "body": "Skip to content\nSearch or jump to…\n\nPull requests\nIssues\nMarketplace\nExplore\n \n@ndukwesamuel \niamshaunjp\n/\nComplete-React-Tutorial\n18\n402381\nCode\nIssues\n2\nPull requests\n4\nActions\nProjects\nWiki\nSecurity\nInsights\nComplete-React-Tutorial/dojo-blog/src/Create.js\n@iamshaunjp\niamshaunjp lesson-27\nLatest commit 18537f7 on Dec 14, 2020\n History\n 1 contributor\n39 lines (36 sloc)  965 Bytes\n  \nimport { useState } from \"react\";\n\nconst Create = () => {\n  const [title, setTitle] = useState('');\n  const [body, setBody] = useState('');\n  const [author, setAuthor] = useState('mario');\n\n  return (\n    <div className=\"create\">\n      <h2>Add a New Blog</h2>\n      <form>\n        <label>Blog title:</label>\n        <input \n          type=\"text\" \n          required \n          value={title}\n          onChange={(e) => setTitle(e.target.value)}\n        />\n        <label>Blog body:</label>\n        <textarea\n          required\n          value={body}\n          onChange={(e) => setBody(e.target.value)}\n        ></textarea>\n        <label>Blog author:</label>\n        <select\n          value={author}\n          onChange={(e) => setAuthor(e.target.value)}\n        >\n          <option value=\"mario\">mario</option>\n          <option value=\"yoshi\">yoshi</option>\n        </select>\n        <button>Add Blog</button>\n      </form>\n    </div>\n  );\n}\n \nexport default Create;\n© 2021 GitHub, Inc.\nTerms\nPrivacy\nSecurity\nStatus\nDocs\nContact GitHub\nPricing\nAPI\nTraining\nBlog\nAbout\n",
+      "author": "yoshi",
+      "id": 7
+    },
+    {
+      "title": "i love my new car",
+      "body": "Skip to content\nSearch or jump to…\n\nPull requests\nIssues\nMarketplace\nExplore\n \n@ndukwesamuel \niamshaunjp\n/\nComplete-React-Tutorial\n18\n402381\nCode\nIssues\n2\nPull requests\n4\nActions\nProjects\nWiki\nSecurity\nInsights\nComplete-React-Tutorial/dojo-blog/src/Create.js\n@iamshaunjp\niamshaunjp lesson-27\nLatest commit 18537f7 on Dec 14, 2020\n History\n 1 contributor\n39 lines (36 sloc)  965 Bytes\n  \nimport { useState } from \"react\";\n\nconst Create = () => {\n  const [title, setTitle] = useState('');\n  const [body, setBody] = useState('');\n  const [author, setAuthor] = useState('mario');\n\n  return (\n    <div className=\"create\">\n      <h2>Add a New Blog</h2>\n      <form>\n        <label>Blog title:</label>\n        <input \n          type=\"text\" \n          required \n          value={title}\n          onChange={(e) => setTitle(e.target.value)}\n        />\n        <label>Blog body:</label>\n        <textarea\n          required\n          value={body}\n          onChange={(e) => setBody(e.target.value)}\n        ></textarea>\n        <label>Blog author:</label>\n        <select\n          value={author}\n          onChange={(e) => setAuthor(e.target.value)}\n        >\n          <option value=\"mario\">mario</option>\n          <option value=\"yoshi\">yoshi</option>\n        </select>\n        <button>Add Blog</button>\n      </form>\n    </div>\n  );\n}\n \nexport default Create;\n© 2021 GitHub, Inc.\nTerms\nPrivacy\nSecurity\nStatus\nDocs\nContact GitHub\nPricing\nAPI\nTraining\nBlog\nAbout\n",
+      "author": "yoshi",
+      "id": 8
+    },
+    {
+      "title": "df,mdf,m",
+      "body": "df,mdf,fm",
+      "author": "mario",
+      "id": 9
+    },
+    {
+      "title": "dfkfjdkfj",
+      "body": "kdfjdfkjfk",
+      "author": "mario",
+      "id": 10
+    },
+    {
+      "title": "jdjskjsdkj",
+      "body": "dkfjdfk",
+      "author": "mario",
+      "id": 11
+    },
+    {
+      "title": "sldlddslk",
+      "body": "lfkdlkdflk",
+      "author": "mario",
+      "id": 12
+    },
+    {
+      "title": "dkjfkdfj",
+      "body": "dkfjdfkj",
+      "author": "mario",
+      "id": 14
+    },
+    {
+      "id": 15
+    },
+    {
+      "id": 16
+    },
+    {
+      "id": 17
+    },
+    {
+      "id": 18
+    },
+    {
+      "id": 19
+    },
+    {
+      "id": 20
+    },
+    {
+      "title": "samheart",
+      "body": "i love you",
+      "author": "yoshi",
+      "id": 21
+    },
+    {
+      "title": "",
+      "body": "",
+      "author": "",
+      "id": 22
+    },
+    {
+      "title": "",
+      "body": "",
+      "author": "",
+      "id": 23
+    },
+    {
+      "title": "",
+      "body": "",
+      "author": "",
+      "id": 24
+    },
+    {
+      "title": "dkfjfdkjf",
+      "body": "dfkjdkfjdfkj",
+      "author": "",
+      "id": 25
+    },
+    {
+      "title": "dkjffkj",
+      "body": "dkfjkdfjdfk",
+      "author": "",
+      "id": 26
+    }
+  ]
+}

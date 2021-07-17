@@ -1,0 +1,281 @@
+body{
+    background-color: violet;
+    color: white,;
+    /* background-image: url(../images/bg.jpg); */
+}
+
+
+
+
+h1{
+    font-size: 100px;
+}
+
+
+
+#img{
+    background-image: url(../images/logo192.png);
+    color: red;
+}
+
+/* span{
+    border-style: double;
+}
+
+div{
+    border-style: dotted;
+} */
+
+.one{
+ 
+ 
+    font-size: 60px;
+}
+
+.two{
+    font-size: 30px;
+
+}
+
+.three{
+    font-size: 100px;
+}
+
+
+.one,.two,.three{
+    background-color: blueviolet;
+    
+}
+
+.one,.two{
+        color: white;
+}
+
+.mov{
+    text-align: right;
+}
+
+
+
+
+
+.c1{
+    color: #8A2BE2;
+}
+
+#ww{
+    background-image: url(../images/logo192.png);
+    width: 20%;
+    height: 400px;    
+}
+
+.ee{
+    color: red;
+}
+
+
+.ww{
+    font-size: 300px;
+
+}
+
+
+.b_img{
+        background-image: url(../images/dum2\ -\ Copy\ -\ Copy.png);
+        background-repeat: no-repeat;
+        /* background-size:cover; */
+
+    }
+
+
+
+.o{
+    font-size: 30px;
+    color: red;
+}
+.t{
+    color: blue;
+    font-size: 50px;
+    
+}
+.th{
+    color: orange;
+    font-size: 100px;
+}
+
+.f{
+    color: peachpuff;
+    font-size: 150px;
+}
+/* 
+<div> background image
+<p> one</p> color red font-size 30
+<p> two</p> color blue font-size 50
+<p> three</p> color orange font-size 100
+<p> four</p> color  font-size 150
+</div> */
+
+
+
+
+#run{
+
+    border-style:dashed;
+    border-color: peru;
+    border-width: 10px;
+    /* border-radius: 50px; */
+    border-radius: 105px;
+    /* padding: 10%;
+    margin: 10%; */
+    
+}
+
+input{
+
+    width: 60%;
+    height: 100px;
+    font-size: 100px;
+    padding-left: 50PX;
+    padding-right: 60PX;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-width: 1px;
+    border-radius: 50px;
+    outline: none;
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-bottom: 300px;
+    margin-top: 500px;
+
+}
+
+/* input::placeholder{
+    background-color: black;
+    color: white;
+} */
+
+
+
+a{
+    border-style:dashed;
+    border-color: peru;
+    border-width: 10px;   
+}
+
+
+
+.glo{
+    background-color: green;
+    width: 40%;
+    height: 300px;
+    padding: 10px 0 0 0 ;
+}
+
+.glo_h1,.glo_p{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.glo_p{
+    margin-top: -90px;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.main{
+    background-color: green;
+    width: 40%;
+    text-align: center;
+    color: white;
+    height: 300px;
+    padding-top: 10px;
+    border: 2px;
+    margin-top: 10px;
+    /* font-weight: bolder; */
+}
+
+
+.main_p{
+    margin-top: -88px;
+    margin-left: 20px;
+    font-size: 20px;
+    /* letter-spacing: 2px; */
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main_p_1{
+    font-weight: bolder;
+    color: black;
+}
+
+.ooo{
+    position: relative;
+    font-size: 15px;
+    top: -50px;
+    left: -30px;
+   
+}
+ 
+
+
+
+
+ nav{
+    background-color: black; 
+    font-size: 30px;
+    color: white; 
+ }
+
+ /* ul{
+     display: flex;
+ } */
+
+ li{
+   display: inline-block;  
+ }
+ a{
+     display: inline-block;
+ }
+
+
+ .fix{
+     position: fixed;
+     top: 30%;
+ }
+
+ nav{
+     position: fixed;
+ }
+
+ #sti{
+     position: sticky;
+     top: 10%;
+ }
+
+
+ .ts{
+     background-color: ;
+     padding: 10%;
+ }
+
+ .ts_1{
+    background-color: green;
+    width: 20%;
+    height: 200px;
+    float: left;
+
+ }
+ .ts_2{
+    background-color: purple;
+    width: 20%;
+    height: 200px;
+  
+ }
+ .ts_3{
+        background-color: red;
+        width: 20%;
+        height: 200px;
+    
+ }

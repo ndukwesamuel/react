@@ -1,0 +1,118 @@
+
+
+
+.ts_1{
+   background-color: green;
+   /* width: 20%; */
+   height: 200px;
+   font-size: 50px;
+   order: 1;
+   flex-grow: 1;
+
+}
+.ts_2{
+   background-color: purple;
+   /* width: 20%; */
+   height: 200px;
+   font-size: 50px;
+   order: 4;
+   flex-grow: 2;
+
+ 
+}
+.ts_3{
+       background-color: red;
+       /* width: 20%; */
+       height: 200px;
+       font-size: 50px;
+       order: 3;
+       flex-grow: 3;
+}
+
+.ts{
+    padding: 10%;    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+    background-color: black;
+}
+
+.ts_1,.ts_2,.ts_3{
+    
+}
+
+.h1{
+    background-color: salmon;
+    order: 2;
+    flex-grow: 1;
+    
+}
+
+nav{
+    background-color: black;
+    color: white;
+    font-size: 40px;
+
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+li{
+    list-style-type:none;
+    margin-right: 0px;
+
+}
+
+.flex_con{
+    display: flex;
+    margin: 0px 60px;
+    padding: 20px 0 20px 0 ;
+    color: white;
+}
+
+.sedans{
+    background-color: orange;
+    padding: 20px 50px 20px 50px;
+    width: 30%;
+}
+
+.sedans > button{
+    color: orange;
+    font-size: 20px;
+}
+
+.suvs{
+    background-color: lightblue;
+    padding: 20px 50px 20px 50px;
+    width: 30%;
+}
+.suvs > button{
+    color: lightblue;
+    font-size: 20px;
+}
+.luxury{
+    background-color: darkcyan;
+    padding: 20px 50px 20px 50px;
+    width: 30%;
+}
+.luxury > button{
+    color: darkcyan;
+    font-size: 20px;
+}
+
+.luxury > p{
+    width: 400px;
+}
+
+
+.btn{
+    border-radius: 30px;
+    width: 220px ;
+    height: 50px;
+    outline: none;
+
+}

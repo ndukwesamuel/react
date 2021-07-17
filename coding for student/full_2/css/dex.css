@@ -1,0 +1,50 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-color: yellow;
+}
+
+.sec1{
+  background-image: url(../image/bg.jpg);
+  color: white;
+}
+
+.sec1_{
+  display: flex;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.sec1_2_{
+  background-color: white;
+  color: black;
+}
+
+.sec1_1_1_1{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+@media (max-width: 768px) {
+    
+    body {
+      background-color: lightblue;
+    }
+
+  }
+
+  @media (max-width: 425px) {
+    
+    body {
+      background-color: orange;
+    }
+
+  }
+
+  
